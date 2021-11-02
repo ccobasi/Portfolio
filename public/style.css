@@ -132,6 +132,15 @@ section .title::after {
     display: inline-block;
 }
 
+.navbar.sticky .menu li a {
+    display: block;
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease;
+}
+
 .navbar .menu li a {
     display: block;
     color: #008ca9;
@@ -755,7 +764,20 @@ footer span a:hover {
 }
 
 @media (max-width: 947px) {
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
         display: block;
         z-index: 999;
     }
@@ -836,6 +858,23 @@ footer span a:hover {
 }
 
 @media (max-width: 768px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 32px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .teams .icon .tools {
         display: inline-flex;
         margin-left: auto;
@@ -846,6 +885,23 @@ footer span a:hover {
 }
 
 @media (max-width: 690px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .max-width {
         padding: 0 23px;
     }
@@ -880,6 +936,23 @@ footer span a:hover {
 }
 
 @media (max-width: 500px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .home .home-content .text-2 {
         font-size: 50px;
     }
@@ -922,6 +995,23 @@ footer span a:hover {
 }
 
 @media (max-width: 430px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .teams .icon p {
         text-decoration: underline;
         text-align: center;
@@ -944,6 +1034,23 @@ footer span a:hover {
 }
 
 @media (max-width: 388px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .teams .icon p {
         text-decoration: underline;
         text-align: center;
@@ -972,6 +1079,23 @@ footer span a:hover {
 }
 
 @media (max-width: 375px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .teams .icon p {
         text-decoration: underline;
         text-align: center;
@@ -1000,6 +1124,23 @@ footer span a:hover {
 }
 
 @media (max-width: 320px) {
+    .menu-btn {
+        color: #f5b002;
+        font-size: 23px;
+        cursor: pointer;
+        display: block;
+        z-index: 999;
+    }
+
+    .navbar .menu li a {
+        display: block;
+        color: #fff;
+        font-size: 18px;
+        font-weight: 500;
+        margin-left: 25px;
+        transition: color 0.3s ease;
+    }
+
     .teams .icon p {
         text-decoration: underline;
         text-align: center;
