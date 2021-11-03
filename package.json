@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "firebase": "^9.2.0",
     "webpack": "^5.37.0"
   }
 }

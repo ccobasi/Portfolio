@@ -1,18 +1,23 @@
-const firebaseConfig = {
-    apiKey: "AIzaSyBGq967Asv50A57kg_OTqwl6x16IEHmZLY",
-    authDomain: "zerradi.firebaseapp.com",
-    databaseURL: "https://zerradi-default-rtdb.firebaseio.com",
-    projectId: "zerradi",
-    storageBucket: "zerradi.appspot.com",
-    messagingSenderId: "978402640387",
-    appId: "1:978402640387:web:aeaf18dfe59ae192c20436"
+import { initializeApp } from "firebase/app";
+
+
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+    apiKey: "AIzaSyAdD-I7gej9tvapd01tv3iP6xBFDraYie4",
+    authDomain: "chuks-5d81b.firebaseapp.com",
+    projectId: "chuks-5d81b",
+    storageBucket: "chuks-5d81b.appspot.com",
+    messagingSenderId: "646927023086",
+    appId: "1:646927023086:web:1f1d256d5bb364531c2cff"
   };
+
   // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
-  
-  
+  const app = initializeApp(firebaseConfig);
+
   const refMessage = firebase.database().ref('contact-info');
-  
   // submit form 
   
   document.querySelector('#contact-form').addEventListener('submit', sendForm);
@@ -20,11 +25,11 @@ const firebaseConfig = {
   function sendForm(e) {
     e.preventDefault();
   
-  
     const name = document.querySelector('#name').value;
     const email = document.querySelector('#email').value;
     const subject = document.querySelector('#subject').value;
     const message = document.querySelector('#message').value;
+
     //save Message
     saveMessage(name, email, subject, message);
   
@@ -134,4 +139,5 @@ const firebaseConfig = {
       }
     });
   });
+  
   
