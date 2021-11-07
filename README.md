@@ -9,17 +9,17 @@
 
 # Screenshot of the page
 
-<img src="portfolio.png">
+<img src="">
 
 
 ## Live demo link 
 
-- <img src="https://img.icons8.com/color/20/000000/firebase.png"/><a href="https://zerradi.web.app/">Live Demo Link</a>
+- <img src="https://img.icons8.com/color/20/000000/firebase.png"/><a href="https://github.com/ccobasi/Portfolio">Live Demo Link</a>
 
 
 ## Author 
 
-- @Zerradi Amine (github) : (www.github.com/dasileker)
+- @Chukwuma Obasi (github) : (www.github.com/ccobasi)
 
 
 ## License
