@@ -14,7 +14,7 @@
 
 ## Live demo link 
 
-- <img src="https://img.icons8.com/color/20/000000/firebase.png"/><a href="https://github.com/ccobasi/Portfolio">Live Demo Link</a>
+- <img src="https://img.icons8.com/color/20/000000/firebase.png"/><a href="https://ccobasi.github.io/Portfolio">Live Demo Link</a>
 
 
 ## Author 
